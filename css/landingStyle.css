@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:300');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/*font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+body {
+    background-image: url('../img/launchpage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 500px #000;
+    font-size: 500%;
+}
+
+.descriptionLaunch {
+    padding-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.descriptionLaunch h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #c1c1c1;
+    text-shadow: 0px 0px 500px #000;
+    font-size: 200%;
+}
+
+.descriptionLaunch p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.button {
+    background-color: rgba(3, 106, 129, 0.5);
+    border: solid rgba(3, 106, 129, 0.5);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 135%;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: solid #000 3px;
+}
+
+@media(max-width: 768px) {
+          .descriptionLaunch {
+            margin-left: 15%;
+            margin-right: 15%;
+          }
+
+}
